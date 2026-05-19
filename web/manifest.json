@@ -1,0 +1,12 @@
+{
+    "name": "CodexGen",
+    "short_name": "CodexGen",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0D1F40",
+    "theme_color": "#1B3A6E",
+    "description": "RPG Spell Card Generator",
+    "orientation": "landscape",
+    "prefer_related_applications": false,
+    "icons": []
+}

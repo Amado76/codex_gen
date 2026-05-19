@@ -1,0 +1,29 @@
+name: codex_gen
+description: RPG Card Generator
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  google_fonts: ^6.1.0
+  pdf: ^3.11.0
+  # printing removed — using direct blob download via dart:html
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/icons/damage/
+    - assets/icons/schools/
